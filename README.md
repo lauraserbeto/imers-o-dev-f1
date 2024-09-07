@@ -18,3 +18,5 @@ O Pit Lane Brasil é o seu portal para as últimas novidades do esporte a motor.
 
 **Aviso:** Este site está em constante desenvolvimento. Pode ter bugs ou funcionalidades incompletas. 
 
+📌Este projeto foi pensado e iniciado na semana da Imersão Dev Alura!
+
