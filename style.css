@@ -1,0 +1,141 @@
+header {
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+
+
+body {
+    background-color: white;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #6f0808;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    border: 3px solid #6f0808;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+nav a:hover {
+    background-color: white;
+    border: #6f0808;
+    border-style: dashed;
+    color: #6f0808;
+    
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: black;
+    color: #ddd;
+    text-align: center;
+}
+
+.intro-title {
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 10px;
+}
+
+
+.intro {
+    padding-left: 50px;
+    margin-top: 50px;
+    border-style: dashed;
+    border-color: #6f0808;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 40px;
+}
+
+.intro texto{
+    text-align: justify;
+    margin: 10px;
+}
+
+
+.news {
+    text-align: center;
+    padding-left: 50px;
+    margin-top: 50px;
+  }
+  
+  .news-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  
+.news-card {
+    width: 300px;
+    margin: 20px;
+    margin-left: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+.news-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+  
+.news-card figcaption {
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+

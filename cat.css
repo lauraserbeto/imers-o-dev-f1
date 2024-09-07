@@ -1,0 +1,333 @@
+header {
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+
+
+body {
+    background-color: white;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #6f0808;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    border: 3px solid #6f0808;
+    transition: background-color 0.3s ease-in-out;
+    
+}
+
+nav a:hover {
+    background-color: white;
+    border: #6f0808;
+    border-style: dashed;
+    color: #6f0808;
+    
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.guia-f1-0 {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para uma nova linha quando não houver espaço suficiente */
+    justify-content: space-between; /* Cria um espaço entre os itens */
+}
+
+.guia-f1-0 div{
+    flex: 1; /* Faz com que cada div ocupe o espaço disponível */
+    margin: 40px; /* Adiciona um espaçamento entre as divs */
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.intro-title {
+    font-family: "Racing Sans One", sans-serif;
+    font-style: normal;
+    margin: 0px;
+    font-size: 40px;
+    color: #6f0808;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+.intro p{
+    text-align: center;
+    margin: 25px;
+    margin-top: 10px;
+}
+
+.guia-f1-titulo {
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    margin: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.guia-f1-1 {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens quebrem para uma nova linha quando não houver espaço suficiente */
+    justify-content: space-between; /* Cria um espaço entre os itens */
+}
+  
+.guia-f1-1 div {
+    flex: 1; /* Faz com que cada div ocupe o espaço disponível */
+    margin: 20px; /* Adiciona um espaçamento entre as divs */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.canais .equipes{
+    flex: 1;
+}
+
+
+.equipes1 {
+    width: 600px;
+    margin: 20px;
+    margin-left: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+.equipes1 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.equipes1 {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .equipes1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+
+.canais table{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    display: flex;
+    border: 1;
+}
+
+.canais td {
+    text-align: center;
+    padding: 10px;
+}
+
+.canais td a{
+    color: black;
+    text-decoration: none;
+}
+
+.canais td a:hover{
+    color: #6f0808;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.canais {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+
+
+.calendar .carousel {
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel img {
+    width: 100px;
+    height: 200px;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: gray;
+    padding: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  .prev:hover, .next:hover {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #6f0808;
+    padding: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  .active {
+    display: none;
+  }
+  
+  .inactive {
+    display: block;
+  }
+
+
+.calendar img {
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.calendar p {
+    text-align: center;
+    padding: 0;
+    
+}
+
+
+.historia h3 {
+    font-size: 30px;
+}
+
+.historia img {
+    border-radius: 5px;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px; /* Cria um espaço entre a imagem e o botão */
+}
+
+.historia{
+    border-style: solid;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /* Arrange items in a row */
+    margin: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+  }
+
+.btn-mais{
+    background-color: #6f0808;
+    color: #ddd;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 7px;
+    border-color: #6f0808;
+    margin-bottom: 10px;
+}
+
+.conteudo-completo {
+    display: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+.conteudo-completo .active{
+    display: block;
+}
+
+.btn-mais:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #6f0808;
+  }
+
+.conteudo-completo p {
+    font-family: Arial, sans-serif; /* Escolha a fonte desejada */
+    text-align: justify;
+    line-height: 1.5; /* Ajuste o espaçamento entre as linhas */
+}
+
+
+b {
+    font-weight: bold;
+}
+
+.title-hist{
+    font-family: "Racing Sans One", sans-serif;
+}
+
+
+footer {
+    background-color: black;
+    color: #ddd;
+    text-align: center;
+}
